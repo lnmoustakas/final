@@ -145,6 +145,8 @@ df = conversion(df)
 df = fit_data(df)
 #plot_data(df)
 
+#uncomment to plot data
+
 #----------------------------------#
 
 ## Machine Learning ##
@@ -201,4 +203,6 @@ def standardize(df):
         plt.show()
     return()
 
-standardize(df)
+#standardize(df)
+
+#uncomment to run deep learnign model
